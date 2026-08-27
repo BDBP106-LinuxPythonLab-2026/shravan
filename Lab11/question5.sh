@@ -6,7 +6,7 @@ else
 echo "$val1 is lesser than $val2"
 fi
 
-#result Testing is greater than testing
+#result Testing is lesser than testing
 
 echo "$val2 $val1" >> teststringfile
 sort teststringfile
