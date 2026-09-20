@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+# sep 20, 2026
+"""program to find the simple interest and the amount with simple interest included.
+The inputs should be the principal, rate of interest in percentage per annum and the
+time in years."""
+
+"""simple intrest (SI)=((principal*Rate*Time(Y))/100)
+#total amount=Principal+SI"""
+
+p=float(input("Enter princial amount: "))
+t=float(input("Enter time in years: "))
+r=float(input("Enter Rate: "))
+
+SI=((p*t*r)/100)
+amount=(SI+p)
+print(f' Simple interest: {SI} & Total amount: {amount}')
+
+

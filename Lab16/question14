@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+# sep 20, 2026
+#question14
+"""get the Fibonacci numbers beginning with f0 = 0 and f1 = 1 up to f25."""
+
+a=1
+b=a
+c=2
+print("f0 = 0")
+print("f1 = 1")
+while c<=25:
+    print(f'f{c}={b}')
+    a,b=b,b+a
+    c=(c+1)

@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+# sep 20, 2026
+# question1
+"""python script to accept a string from the uesr and print it in title-case."""
+
+name=str(input("enter a string: "))
+print(name.title())
+

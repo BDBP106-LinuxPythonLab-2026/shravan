@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+# sep 20, 2026
+#question16
+"""program to find whether a given triangle is equilateral isosceles or scalene. User input is length of sides."""
+
+a=float(input("Side a : "))
+b=float(input("Side b : "))
+c=float(input("Side c : "))
+
+if a == b == c :
+    print("It is an equilateral triangle.")
+elif a == b or a == c or b == c :
+    print("It is an isosceles triangle.")
+else :
+    print("It is a scalene triangle.")

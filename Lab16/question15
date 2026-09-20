@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+# sep 20, 2026
+#question15
+"""Write a program to find the distance between 2 points, input is coordinates for the two points."""
+
+a=float(input("x1 : "))
+b=float(input("y1 : "))
+c=float(input("x2 : "))
+d=float(input("y2 : "))
+
+
+r=((((a-c)**2)+((b-d)**2))**(1/2))
+
+print(f'The distance between two points is : {r}')

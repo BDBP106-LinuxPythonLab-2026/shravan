@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+# sep 20, 2026
+# Question3
+"""prgram that asks for a peron’s age and prints whether the person is eligible to vote or note."""
+
+age=int(input("enter your age:"))
+if age>=18:
+    print("Eligible to vote.")
+else:
+    print("Not eligible to vote.")

@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+# sep 20, 2026
+#question4
+"""python script to take an input angle in degrees and print the values of all the 6
+trigonometric functions for this angle. Remember to write a line of code to convert your
+input into radians before finding the trigonometric values."""
+
+import math
+
+angle=int(input("Enter angle:"))
+rad=(angle/180*math.pi)
+
+sin=float(math.sin(rad))
+cos=float(math.cos(rad))
+tan=float(math.tan(rad))
+cot=float(1/tan)
+sec=float(1/sin)
+cosec=float(1/cos)
+
+print(f' sin{angle}={sin}')
+print(f' sin{angle}={cos}')
+print(f' sin{angle}={tan}')
+print(f' sin{angle}={cot}')
+print(f' sin{angle}={sec}')
+print(f' sin{angle}={cosec}')

@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+# sep 20, 2026
+#question10
+"""Write a program to find whether a number is even or odd."""
+
+a=int(input("Enter a number:"))
+
+if (a%2)==0 :
+    print(f'The number {a} is even.')
+else:
+    print(f'The number {a} is odd.')

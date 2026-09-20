@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# sep 20, 2026
+#question11
+"""program to check if an input letter is a vowel or consonant"""
+
+q=str(input("Enter a letter:"))
+
+if q=="a" or q=="e" or q=="i" or q=='o' or q=='u' or q=="A" or q=="E" or q=="I" or q=='O' or q=='U':
+    print(f'{q} is a vowel')
+else:
+    print(f'{q} is a consonant')
+    

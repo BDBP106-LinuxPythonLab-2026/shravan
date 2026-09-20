@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+# sep 20, 2026
+#question9
+"""program to reverse a number and print the reversed number."""
+
+a=int(input("Enter number:"))
+r=0
+
+while a>0:
+    r=((r*10)+(a%10))
+    a=(a//10)
+
+print(f'Reversed number :{r}')
