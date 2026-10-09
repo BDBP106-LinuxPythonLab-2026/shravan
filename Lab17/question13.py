@@ -6,7 +6,7 @@ w=[1,2,1,25,1,54,13,4,13,51,1,2,12,25,1]
 k=2
 extract=[]
 for i in w:
-    if w.count(i) == k:
+    if w.count(i) > k:
         extract.append(i)
 print(extract) 
 
